@@ -6,10 +6,52 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TEST PAGE</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <h1>WORKS</h1>
+  <header>
+    <nav class="text-right">
+      <ul>
+        <li> <a href="https://github.com/">Github</a></li>
+        <li> <a href="#">Portfolio</a></li>
+        <li> <a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1 class="text-center">My New Website</h1>
+
+  <figure>
+    <img
+      src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+      alt="Graphic with Coming Soon text">
+    <figcaption class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
+  </figure>
+
+  <section id="contact">
+    <h2 class="contact-me">Hit me up</h2>
+    <form action="">
+      <ul>
+        <li>
+          <label for="name" class="text-right">Name:</label>
+          <input type="text" id="name" name="user-name">
+        </li>
+        <li>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="user-name">
+        </li>
+        <div class="text-center">
+          <button type="submit">SEND</button>
+        </div>
+      </ul>
+    </form>
+  </section>
+
+  <footer class="text-center">
+    © 2022 My sweet site. All rights reserved.
+  </footer>
+
 </body>
 
 </html>
